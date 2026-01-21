@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahari complex</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="icon" type="image/png" href="images/Fahari complex logo.png">
+
+    
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <div id="logo">
+             <img src="images/Fahari complex logo.png" alt="SITE LOGO">
+           </div>
+          <div id="tittles">
+             <h1>Fahari complex</h1>
+             <p> <i>"Quality is is our priority"</i></p>
+          </div>
+
+        </div>
+        <nav>
+            <div id="tab-links">
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sell-item.html">Sell item</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+            </div>
+        
+    </header>
+    <!-- Main Content -->
+    <main>
+        <section id="sell-item-section">
+            <h1>Sell Your Item</h1>
+            <form id="sell-item-form">
+                <label for="item-name">Item Name:</label>
+                <input type="text" id="item-name" name="item-name" required>
+
+                <label for="item-description">Item Description:</label>
+                <textarea id="item-description" name="item-description" required></textarea>
+
+                <label for="item-price">Item Price (Ksh):</label>
+                <input type="number" id="item-price" name="item-price" required>
+
+                <label for="item-category">Item Category:</label>
+                <select id="item-category" name="item-category" required>
+                    <option value="">Select a category</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="furniture">Furniture</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="books">Books</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="item-image">Upload Item Image:</label>
+                <input type="file" id="item-image" name="item-image" accept="image/*" required>
+
+                <input type="submit" value="Submit Item for Sale">
+            </form>
+            <div></div>
+        </section>
+        <section id="items-in-stock">
+            <div>
+                <h2>items in stock</h2>
+                <div>
+                    <ol>
+                        <li>Item1 <button>Remove</button></li>
+                       <li>Item2<button>Remove</button></li>
+                        <li>Item3 <button>Remove</button></li>
+                        <li></li>
+                        <li></li>
+                        
+                </div>
+            </div>
+        </section>
+       
+        
+
+       </section>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+        <div id="footer-container">
+            <div>
+                <h3>Fahari complex</h3>
+                <p>&copy; 2025 Fahari complex. All rights reserved.</p>
+            </div>
+            <div>
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
