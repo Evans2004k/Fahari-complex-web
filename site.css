@@ -264,11 +264,42 @@ main h1{
     max-height: 80%;
 
 }
+
 #item-details-section p{
     line-height: 1.6;
     margin-bottom: 20px;
+    
+    
 
 }
+#item-details-section p strong{
+    color: orangered;
+}
+
+#contact-links{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+   
+    
+}
+#contact-links a{
+    text-decoration: none;
+    color: black;
+}
+#contact-links a:hover{
+    color: orangered;
+}
+#contact-links a::after{
+    color: blue;
+}
+#contact-links h2:hover{
+    color: orangered;
+
+}
+
+
+
 
 /*--footer --*/
 footer{
